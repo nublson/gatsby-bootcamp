@@ -1,8 +1,10 @@
 import React from "react"
 
+import Layout from "../components/Layout"
+
 const ContactPage = () => {
     return (
-        <div>
+        <Layout>
             <h1>Contact</h1>
             <p>
                 You can find me on{" "}
@@ -22,7 +24,7 @@ const ContactPage = () => {
                     Instagram
                 </a>
             </p>
-        </div>
+        </Layout>
     )
 }
 

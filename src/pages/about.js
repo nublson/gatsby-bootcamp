@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const AboutPage = () => {
     return (
@@ -6,7 +7,10 @@ const AboutPage = () => {
             <h1>About</h1>
             <p>
                 I'm a self-taugth Full-Stack Developer with node and React, from
-                Angola, currently living in Portugal
+                Angola, currently living in Portugal.
+            </p>
+            <p>
+                If you're hiring, <Link to="/contact">contact me</Link>!
             </p>
         </div>
     )

@@ -1,16 +1,25 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 
 const AboutPage = () => {
+    const data = useStaticQuery(graphql`
+        query {
+            site {
+                siteMetadata {
+                    description
+                }
+            }
+        }
+    `)
+
+    const { description } = data.site.siteMetadata
+
     return (
         <Layout>
             <h1>About</h1>
-            <p>
-                I'm a self-taugth Full-Stack Developer with node and React, from
-                Angola, currently living in Portugal.
-            </p>
+            <p>{description}</p>
             <p>
                 If you're hiring, <Link to="/contact">contact me</Link>!
             </p>

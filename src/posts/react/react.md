@@ -3,12 +3,8 @@ title: "The Complete React Developer Course (w/ Hooks and Redux)"
 date: "24-12-2019"
 ---
 
-# The Complete React Developer Course (w/ Hooks and Redux)
-
-by: [Adrew Mead](https://mead.io/)
-
 ---
 
-![Bootcamp Preview](../content/reactPreview.png)
+![Bootcamp Preview](./reactPreview.png)
 
 Learn how to build and launch React web applications using React, Redux, Webpack, React-Router, and more!

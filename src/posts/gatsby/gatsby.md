@@ -3,13 +3,9 @@ title: "The Great Gatsby Bootcamp"
 date: "20-12-2019"
 ---
 
-# The Great Gatsby Bootcamp
-
-by: [Adrew Mead](https://mead.io/)
-
 ---
 
-![Bootcamp Preview](../content/gatsbyPreview.png)
+![Bootcamp Preview](./gatsbyPreview.png)
 
 [Gatsby](https://www.gatsbyjs.org/) is a free and open source framework based on [React](https://reactjs.org/) that helps developers build blazing fast websites and apps.
 

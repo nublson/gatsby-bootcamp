@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
+import Head from "../components/Head"
 import blogStyles from "./blog.module.scss"
 import Layout from "../components/Layout"
 
@@ -37,6 +38,7 @@ const BlogPage = () => {
 
     return (
         <Layout>
+            <Head title="Blog" />
             <h1>Blog</h1>
             <ol className={blogStyles.posts}>{nodes}</ol>
         </Layout>

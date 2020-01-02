@@ -9,6 +9,7 @@ module.exports = {
         description: `A 22 years old self-taught Full-Stack Developer with Node and React from Angola, currently living in beautiful Portugal.`,
     },
     plugins: [
+        `gatsby-plugin-react-helmet`,
         `gatsby-plugin-sass`,
         `gatsby-plugin-sharp`,
         {
